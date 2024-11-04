@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>作品提交</title>
+</head>
+<body>
+    <h1>提交作品</h1>
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <label for="name">姓名:</label>
+        <input type="text" name="name" required><br><br>
+        
+        <label for="class">班级:</label>
+        <input type="text" name="class" required><br><br>
+        
+        <label for="student_id">学号:</label>
+        <input type="text" name="student_id" required><br><br>
+        
+        <label for="file">作品附件:</label>
+        <input type="file" name="file" required><br><br>
+        
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
